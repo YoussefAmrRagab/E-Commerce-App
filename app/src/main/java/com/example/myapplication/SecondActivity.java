@@ -73,8 +73,8 @@ public class SecondActivity extends AppCompatActivity {
 
         remove.setOnClickListener(v -> {
             --counter;
-            if (counter<0){
-                counter = 0;
+            if (counter<1){
+                counter = 1;
             }else {
                 cont.setText(counter + "");
             }
